@@ -1,5 +1,5 @@
 Analysis & Synthesis report for task1_top
-Tue Feb 06 16:58:02 2024
+Tue Feb 06 17:15:49 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -43,7 +43,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Feb 06 16:58:02 2024       ;
+; Analysis & Synthesis Status        ; Successful - Tue Feb 06 17:15:49 2024       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; task1_top                                   ;
 ; Top-level Entity Name              ; DE10_LITE_Golden_Top                        ;
@@ -164,13 +164,13 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                                                ;
-+----------------------------------------------------------------+-----------------+------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path                               ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                                                                                    ; Library ;
-+----------------------------------------------------------------+-----------------+------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-; ../../Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v ; yes             ; User Verilog HDL File  ; C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v ;         ;
-+----------------------------------------------------------------+-----------------+------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                            ;
++------------------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path         ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                                                                      ; Library ;
++------------------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; ../src/Golden_Top/DE10_LITE_Golden_Top.v ; yes             ; User Verilog HDL File  ; C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v ;         ;
++------------------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------------------+
@@ -260,45 +260,45 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Tue Feb 06 16:57:20 2024
+    Info: Processing started: Tue Feb 06 17:15:17 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off task1 -c task1_top
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
 Info (12248): Elaborating Platform Designer system entity "nios.qsys"
-Info (12250): 2024.02.06.16:57:40 Progress: Loading task1/nios.qsys
-Info (12250): 2024.02.06.16:57:40 Progress: Reading input file
-Info (12250): 2024.02.06.16:57:40 Progress: Adding button [altera_avalon_pio 18.1]
-Info (12250): 2024.02.06.16:57:40 Progress: Parameterizing module button
-Info (12250): 2024.02.06.16:57:40 Progress: Adding clk [clock_source 18.1]
-Info (12250): 2024.02.06.16:57:41 Progress: Parameterizing module clk
-Info (12250): 2024.02.06.16:57:41 Progress: Adding cpu [altera_nios2_gen2 18.1]
-Info (12250): 2024.02.06.16:57:41 Progress: Parameterizing module cpu
-Info (12250): 2024.02.06.16:57:41 Progress: Adding hex0 [altera_avalon_pio 18.1]
-Info (12250): 2024.02.06.16:57:41 Progress: Parameterizing module hex0
-Info (12250): 2024.02.06.16:57:41 Progress: Adding hex1 [altera_avalon_pio 18.1]
-Info (12250): 2024.02.06.16:57:41 Progress: Parameterizing module hex1
-Info (12250): 2024.02.06.16:57:41 Progress: Adding hex2 [altera_avalon_pio 18.1]
-Info (12250): 2024.02.06.16:57:41 Progress: Parameterizing module hex2
-Info (12250): 2024.02.06.16:57:41 Progress: Adding hex3 [altera_avalon_pio 18.1]
-Info (12250): 2024.02.06.16:57:41 Progress: Parameterizing module hex3
-Info (12250): 2024.02.06.16:57:41 Progress: Adding hex4 [altera_avalon_pio 18.1]
-Info (12250): 2024.02.06.16:57:41 Progress: Parameterizing module hex4
-Info (12250): 2024.02.06.16:57:41 Progress: Adding hex5 [altera_avalon_pio 18.1]
-Info (12250): 2024.02.06.16:57:41 Progress: Parameterizing module hex5
-Info (12250): 2024.02.06.16:57:41 Progress: Adding jtag_uart [altera_avalon_jtag_uart 18.1]
-Info (12250): 2024.02.06.16:57:41 Progress: Parameterizing module jtag_uart
-Info (12250): 2024.02.06.16:57:41 Progress: Adding led [altera_avalon_pio 18.1]
-Info (12250): 2024.02.06.16:57:41 Progress: Parameterizing module led
-Info (12250): 2024.02.06.16:57:41 Progress: Adding onchip_memory [altera_avalon_onchip_memory2 18.1]
-Info (12250): 2024.02.06.16:57:41 Progress: Parameterizing module onchip_memory
-Info (12250): 2024.02.06.16:57:41 Progress: Adding switch [altera_avalon_pio 18.1]
-Info (12250): 2024.02.06.16:57:41 Progress: Parameterizing module switch
-Info (12250): 2024.02.06.16:57:41 Progress: Adding sysid_qsys_0 [altera_avalon_sysid_qsys 18.1]
-Info (12250): 2024.02.06.16:57:42 Progress: Parameterizing module sysid_qsys_0
-Info (12250): 2024.02.06.16:57:42 Progress: Building connections
-Info (12250): 2024.02.06.16:57:42 Progress: Parameterizing connections
-Info (12250): 2024.02.06.16:57:42 Progress: Validating
-Info (12250): 2024.02.06.16:57:42 Progress: Done reading input file
+Info (12250): 2024.02.06.17:15:29 Progress: Loading task1/nios.qsys
+Info (12250): 2024.02.06.17:15:29 Progress: Reading input file
+Info (12250): 2024.02.06.17:15:29 Progress: Adding button [altera_avalon_pio 18.1]
+Info (12250): 2024.02.06.17:15:29 Progress: Parameterizing module button
+Info (12250): 2024.02.06.17:15:29 Progress: Adding clk [clock_source 18.1]
+Info (12250): 2024.02.06.17:15:30 Progress: Parameterizing module clk
+Info (12250): 2024.02.06.17:15:30 Progress: Adding cpu [altera_nios2_gen2 18.1]
+Info (12250): 2024.02.06.17:15:30 Progress: Parameterizing module cpu
+Info (12250): 2024.02.06.17:15:30 Progress: Adding hex0 [altera_avalon_pio 18.1]
+Info (12250): 2024.02.06.17:15:30 Progress: Parameterizing module hex0
+Info (12250): 2024.02.06.17:15:30 Progress: Adding hex1 [altera_avalon_pio 18.1]
+Info (12250): 2024.02.06.17:15:30 Progress: Parameterizing module hex1
+Info (12250): 2024.02.06.17:15:30 Progress: Adding hex2 [altera_avalon_pio 18.1]
+Info (12250): 2024.02.06.17:15:30 Progress: Parameterizing module hex2
+Info (12250): 2024.02.06.17:15:30 Progress: Adding hex3 [altera_avalon_pio 18.1]
+Info (12250): 2024.02.06.17:15:30 Progress: Parameterizing module hex3
+Info (12250): 2024.02.06.17:15:30 Progress: Adding hex4 [altera_avalon_pio 18.1]
+Info (12250): 2024.02.06.17:15:30 Progress: Parameterizing module hex4
+Info (12250): 2024.02.06.17:15:30 Progress: Adding hex5 [altera_avalon_pio 18.1]
+Info (12250): 2024.02.06.17:15:30 Progress: Parameterizing module hex5
+Info (12250): 2024.02.06.17:15:30 Progress: Adding jtag_uart [altera_avalon_jtag_uart 18.1]
+Info (12250): 2024.02.06.17:15:30 Progress: Parameterizing module jtag_uart
+Info (12250): 2024.02.06.17:15:30 Progress: Adding led [altera_avalon_pio 18.1]
+Info (12250): 2024.02.06.17:15:30 Progress: Parameterizing module led
+Info (12250): 2024.02.06.17:15:30 Progress: Adding onchip_memory [altera_avalon_onchip_memory2 18.1]
+Info (12250): 2024.02.06.17:15:30 Progress: Parameterizing module onchip_memory
+Info (12250): 2024.02.06.17:15:30 Progress: Adding switch [altera_avalon_pio 18.1]
+Info (12250): 2024.02.06.17:15:30 Progress: Parameterizing module switch
+Info (12250): 2024.02.06.17:15:30 Progress: Adding sysid_qsys_0 [altera_avalon_sysid_qsys 18.1]
+Info (12250): 2024.02.06.17:15:30 Progress: Parameterizing module sysid_qsys_0
+Info (12250): 2024.02.06.17:15:30 Progress: Building connections
+Info (12250): 2024.02.06.17:15:31 Progress: Parameterizing connections
+Info (12250): 2024.02.06.17:15:31 Progress: Validating
+Info (12250): 2024.02.06.17:15:31 Progress: Done reading input file
 Info (12250): Nios.button: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
 Info (12250): Nios.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
 Info (12250): Nios.switch: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
@@ -306,28 +306,28 @@ Info (12250): Nios.sysid_qsys_0: System ID is not assigned automatically. Edit t
 Info (12250): Nios.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
 Info (12250): Nios: Generating nios "nios" for QUARTUS_SYNTH
 Info (12250): Button: Starting RTL generation for module 'nios_button'
-Info (12250): Button:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_button --dir=C:/Users/zz4221/AppData/Local/Temp/alt9759_8359573445548139094.dir/0002_button_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/zz4221/AppData/Local/Temp/alt9759_8359573445548139094.dir/0002_button_gen//nios_button_component_configuration.pl  --do_build_sim=0  ]
+Info (12250): Button:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_button --dir=C:/Users/zz4221/AppData/Local/Temp/alt9759_753425228109152557.dir/0002_button_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/zz4221/AppData/Local/Temp/alt9759_753425228109152557.dir/0002_button_gen//nios_button_component_configuration.pl  --do_build_sim=0  ]
 Info (12250): Button: Done RTL generation for module 'nios_button'
 Info (12250): Button: "nios" instantiated altera_avalon_pio "button"
 Info (12250): Cpu: "nios" instantiated altera_nios2_gen2 "cpu"
 Info (12250): Hex0: Starting RTL generation for module 'nios_hex0'
-Info (12250): Hex0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_hex0 --dir=C:/Users/zz4221/AppData/Local/Temp/alt9759_8359573445548139094.dir/0003_hex0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/zz4221/AppData/Local/Temp/alt9759_8359573445548139094.dir/0003_hex0_gen//nios_hex0_component_configuration.pl  --do_build_sim=0  ]
+Info (12250): Hex0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_hex0 --dir=C:/Users/zz4221/AppData/Local/Temp/alt9759_753425228109152557.dir/0003_hex0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/zz4221/AppData/Local/Temp/alt9759_753425228109152557.dir/0003_hex0_gen//nios_hex0_component_configuration.pl  --do_build_sim=0  ]
 Info (12250): Hex0: Done RTL generation for module 'nios_hex0'
 Info (12250): Hex0: "nios" instantiated altera_avalon_pio "hex0"
 Info (12250): Jtag_uart: Starting RTL generation for module 'nios_jtag_uart'
-Info (12250): Jtag_uart:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=nios_jtag_uart --dir=C:/Users/zz4221/AppData/Local/Temp/alt9759_8359573445548139094.dir/0004_jtag_uart_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/zz4221/AppData/Local/Temp/alt9759_8359573445548139094.dir/0004_jtag_uart_gen//nios_jtag_uart_component_configuration.pl  --do_build_sim=0  ]
+Info (12250): Jtag_uart:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=nios_jtag_uart --dir=C:/Users/zz4221/AppData/Local/Temp/alt9759_753425228109152557.dir/0004_jtag_uart_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/zz4221/AppData/Local/Temp/alt9759_753425228109152557.dir/0004_jtag_uart_gen//nios_jtag_uart_component_configuration.pl  --do_build_sim=0  ]
 Info (12250): Jtag_uart: Done RTL generation for module 'nios_jtag_uart'
 Info (12250): Jtag_uart: "nios" instantiated altera_avalon_jtag_uart "jtag_uart"
 Info (12250): Led: Starting RTL generation for module 'nios_led'
-Info (12250): Led:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_led --dir=C:/Users/zz4221/AppData/Local/Temp/alt9759_8359573445548139094.dir/0005_led_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/zz4221/AppData/Local/Temp/alt9759_8359573445548139094.dir/0005_led_gen//nios_led_component_configuration.pl  --do_build_sim=0  ]
+Info (12250): Led:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_led --dir=C:/Users/zz4221/AppData/Local/Temp/alt9759_753425228109152557.dir/0005_led_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/zz4221/AppData/Local/Temp/alt9759_753425228109152557.dir/0005_led_gen//nios_led_component_configuration.pl  --do_build_sim=0  ]
 Info (12250): Led: Done RTL generation for module 'nios_led'
 Info (12250): Led: "nios" instantiated altera_avalon_pio "led"
 Info (12250): Onchip_memory: Starting RTL generation for module 'nios_onchip_memory'
-Info (12250): Onchip_memory:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=nios_onchip_memory --dir=C:/Users/zz4221/AppData/Local/Temp/alt9759_8359573445548139094.dir/0006_onchip_memory_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/zz4221/AppData/Local/Temp/alt9759_8359573445548139094.dir/0006_onchip_memory_gen//nios_onchip_memory_component_configuration.pl  --do_build_sim=0  ]
+Info (12250): Onchip_memory:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=nios_onchip_memory --dir=C:/Users/zz4221/AppData/Local/Temp/alt9759_753425228109152557.dir/0006_onchip_memory_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/zz4221/AppData/Local/Temp/alt9759_753425228109152557.dir/0006_onchip_memory_gen//nios_onchip_memory_component_configuration.pl  --do_build_sim=0  ]
 Info (12250): Onchip_memory: Done RTL generation for module 'nios_onchip_memory'
 Info (12250): Onchip_memory: "nios" instantiated altera_avalon_onchip_memory2 "onchip_memory"
 Info (12250): Switch: Starting RTL generation for module 'nios_switch'
-Info (12250): Switch:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_switch --dir=C:/Users/zz4221/AppData/Local/Temp/alt9759_8359573445548139094.dir/0007_switch_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/zz4221/AppData/Local/Temp/alt9759_8359573445548139094.dir/0007_switch_gen//nios_switch_component_configuration.pl  --do_build_sim=0  ]
+Info (12250): Switch:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_switch --dir=C:/Users/zz4221/AppData/Local/Temp/alt9759_753425228109152557.dir/0007_switch_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/zz4221/AppData/Local/Temp/alt9759_753425228109152557.dir/0007_switch_gen//nios_switch_component_configuration.pl  --do_build_sim=0  ]
 Info (12250): Switch: Done RTL generation for module 'nios_switch'
 Info (12250): Switch: "nios" instantiated altera_avalon_pio "switch"
 Info (12250): Sysid_qsys_0: "nios" instantiated altera_avalon_sysid_qsys "sysid_qsys_0"
@@ -348,18 +348,18 @@ Info (12250): Mm_interconnect_0: "nios" instantiated altera_mm_interconnect "mm_
 Info (12250): Irq_mapper: "nios" instantiated altera_irq_mapper "irq_mapper"
 Info (12250): Rst_controller: "nios" instantiated altera_reset_controller "rst_controller"
 Info (12250): Cpu: Starting RTL generation for module 'nios_cpu_cpu'
-Info (12250): Cpu:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=nios_cpu_cpu --dir=C:/Users/zz4221/AppData/Local/Temp/alt9759_8359573445548139094.dir/0011_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/zz4221/AppData/Local/Temp/alt9759_8359573445548139094.dir/0011_cpu_gen//nios_cpu_cpu_processor_configuration.pl  --do_build_sim=0  ]
-Info (12250): Cpu: # 2024.02.06 16:57:56 (*) Starting Nios II generation
-Info (12250): Cpu: # 2024.02.06 16:57:56 (*)   Checking for plaintext license.
-Info (12250): Cpu: # 2024.02.06 16:57:57 (*)   Couldn't query license setup in Quartus directory C:/intelFPGA_lite/18.1/quartus/bin64/
-Info (12250): Cpu: # 2024.02.06 16:57:57 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
-Info (12250): Cpu: # 2024.02.06 16:57:57 (*)   Plaintext license not found.
-Info (12250): Cpu: # 2024.02.06 16:57:57 (*)   No license required to generate encrypted Nios II/e.
-Info (12250): Cpu: # 2024.02.06 16:57:57 (*)   Elaborating CPU configuration settings
-Info (12250): Cpu: # 2024.02.06 16:57:57 (*)   Creating all objects for CPU
-Info (12250): Cpu: # 2024.02.06 16:57:58 (*)   Generating RTL from CPU objects
-Info (12250): Cpu: # 2024.02.06 16:57:58 (*)   Creating plain-text RTL
-Info (12250): Cpu: # 2024.02.06 16:57:58 (*) Done Nios II generation
+Info (12250): Cpu:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=nios_cpu_cpu --dir=C:/Users/zz4221/AppData/Local/Temp/alt9759_753425228109152557.dir/0011_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/zz4221/AppData/Local/Temp/alt9759_753425228109152557.dir/0011_cpu_gen//nios_cpu_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info (12250): Cpu: # 2024.02.06 17:15:43 (*) Starting Nios II generation
+Info (12250): Cpu: # 2024.02.06 17:15:43 (*)   Checking for plaintext license.
+Info (12250): Cpu: # 2024.02.06 17:15:44 (*)   Couldn't query license setup in Quartus directory C:/intelFPGA_lite/18.1/quartus/bin64/
+Info (12250): Cpu: # 2024.02.06 17:15:44 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info (12250): Cpu: # 2024.02.06 17:15:44 (*)   Plaintext license not found.
+Info (12250): Cpu: # 2024.02.06 17:15:44 (*)   No license required to generate encrypted Nios II/e.
+Info (12250): Cpu: # 2024.02.06 17:15:44 (*)   Elaborating CPU configuration settings
+Info (12250): Cpu: # 2024.02.06 17:15:44 (*)   Creating all objects for CPU
+Info (12250): Cpu: # 2024.02.06 17:15:45 (*)   Generating RTL from CPU objects
+Info (12250): Cpu: # 2024.02.06 17:15:45 (*)   Creating plain-text RTL
+Info (12250): Cpu: # 2024.02.06 17:15:46 (*) Done Nios II generation
 Info (12250): Cpu: Done RTL generation for module 'nios_cpu_cpu'
 Info (12250): Cpu: "cpu" instantiated altera_nios2_gen2_unit "cpu"
 Info (12250): Cpu_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "cpu_data_master_translator"
@@ -385,8 +385,8 @@ Info (12250): Avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_
 Info (12250): Error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
 Info (12250): Nios: Done "nios" with 31 modules, 43 files
 Info (12249): Finished elaborating Platform Designer system entity "nios.qsys"
-Info (12021): Found 1 design units, including 1 entities, in source file /users/zz4221/onedrive - imperial college london/desktop/informationprocessing/infoproc-lab-solution/lab materials/lab2/src/golden_top/de10_lite_golden_top.v
-    Info (12023): Found entity 1: DE10_LITE_Golden_Top File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 6
+Info (12021): Found 1 design units, including 1 entities, in source file /users/zz4221/onedrive - imperial college london/desktop/informationprocessing/infoproc-lab-solution/lab2/src/golden_top/de10_lite_golden_top.v
+    Info (12023): Found entity 1: DE10_LITE_Golden_Top File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 6
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/nios/nios.v
     Info (12023): Found entity 1: nios File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/task1/db/ip/nios/nios.v Line: 6
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/nios/submodules/altera_avalon_sc_fifo.v
@@ -493,200 +493,201 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/ip/n
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/nios/submodules/nios_sysid_qsys_0.v
     Info (12023): Found entity 1: nios_sysid_qsys_0 File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/task1/db/ip/nios/submodules/nios_sysid_qsys_0.v Line: 34
 Info (12127): Elaborating entity "DE10_LITE_Golden_Top" for the top level hierarchy
-Warning (10034): Output port "DRAM_ADDR" at DE10_LITE_Golden_Top.v(14) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
-Warning (10034): Output port "DRAM_BA" at DE10_LITE_Golden_Top.v(15) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 15
-Warning (10034): Output port "HEX0" at DE10_LITE_Golden_Top.v(27) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 27
-Warning (10034): Output port "HEX1" at DE10_LITE_Golden_Top.v(28) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 28
-Warning (10034): Output port "HEX2" at DE10_LITE_Golden_Top.v(29) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 29
-Warning (10034): Output port "HEX3" at DE10_LITE_Golden_Top.v(30) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 30
-Warning (10034): Output port "HEX4" at DE10_LITE_Golden_Top.v(31) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 31
-Warning (10034): Output port "HEX5" at DE10_LITE_Golden_Top.v(32) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 32
-Warning (10034): Output port "LEDR" at DE10_LITE_Golden_Top.v(38) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 38
-Warning (10034): Output port "VGA_B" at DE10_LITE_Golden_Top.v(44) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 44
-Warning (10034): Output port "VGA_G" at DE10_LITE_Golden_Top.v(45) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 45
-Warning (10034): Output port "VGA_R" at DE10_LITE_Golden_Top.v(47) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 47
-Warning (10034): Output port "DRAM_CAS_N" at DE10_LITE_Golden_Top.v(16) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 16
-Warning (10034): Output port "DRAM_CKE" at DE10_LITE_Golden_Top.v(17) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 17
-Warning (10034): Output port "DRAM_CLK" at DE10_LITE_Golden_Top.v(18) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 18
-Warning (10034): Output port "DRAM_CS_N" at DE10_LITE_Golden_Top.v(19) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 19
-Warning (10034): Output port "DRAM_LDQM" at DE10_LITE_Golden_Top.v(21) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 21
-Warning (10034): Output port "DRAM_RAS_N" at DE10_LITE_Golden_Top.v(22) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 22
-Warning (10034): Output port "DRAM_UDQM" at DE10_LITE_Golden_Top.v(23) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 23
-Warning (10034): Output port "DRAM_WE_N" at DE10_LITE_Golden_Top.v(24) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 24
-Warning (10034): Output port "VGA_HS" at DE10_LITE_Golden_Top.v(46) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 46
-Warning (10034): Output port "VGA_VS" at DE10_LITE_Golden_Top.v(48) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 48
-Warning (10034): Output port "GSENSOR_CS_N" at DE10_LITE_Golden_Top.v(51) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 51
-Warning (10034): Output port "GSENSOR_SCLK" at DE10_LITE_Golden_Top.v(53) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 53
+Warning (10034): Output port "DRAM_ADDR" at DE10_LITE_Golden_Top.v(14) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
+Warning (10034): Output port "DRAM_BA" at DE10_LITE_Golden_Top.v(15) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 15
+Warning (10034): Output port "HEX0" at DE10_LITE_Golden_Top.v(27) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 27
+Warning (10034): Output port "HEX1" at DE10_LITE_Golden_Top.v(28) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 28
+Warning (10034): Output port "HEX2" at DE10_LITE_Golden_Top.v(29) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 29
+Warning (10034): Output port "HEX3" at DE10_LITE_Golden_Top.v(30) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 30
+Warning (10034): Output port "HEX4" at DE10_LITE_Golden_Top.v(31) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 31
+Warning (10034): Output port "HEX5" at DE10_LITE_Golden_Top.v(32) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 32
+Warning (10034): Output port "LEDR" at DE10_LITE_Golden_Top.v(38) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 38
+Warning (10034): Output port "VGA_B" at DE10_LITE_Golden_Top.v(44) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 44
+Warning (10034): Output port "VGA_G" at DE10_LITE_Golden_Top.v(45) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 45
+Warning (10034): Output port "VGA_R" at DE10_LITE_Golden_Top.v(47) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 47
+Warning (10034): Output port "DRAM_CAS_N" at DE10_LITE_Golden_Top.v(16) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 16
+Warning (10034): Output port "DRAM_CKE" at DE10_LITE_Golden_Top.v(17) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 17
+Warning (10034): Output port "DRAM_CLK" at DE10_LITE_Golden_Top.v(18) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 18
+Warning (10034): Output port "DRAM_CS_N" at DE10_LITE_Golden_Top.v(19) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 19
+Warning (10034): Output port "DRAM_LDQM" at DE10_LITE_Golden_Top.v(21) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 21
+Warning (10034): Output port "DRAM_RAS_N" at DE10_LITE_Golden_Top.v(22) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 22
+Warning (10034): Output port "DRAM_UDQM" at DE10_LITE_Golden_Top.v(23) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 23
+Warning (10034): Output port "DRAM_WE_N" at DE10_LITE_Golden_Top.v(24) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 24
+Warning (10034): Output port "VGA_HS" at DE10_LITE_Golden_Top.v(46) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 46
+Warning (10034): Output port "VGA_VS" at DE10_LITE_Golden_Top.v(48) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 48
+Warning (10034): Output port "GSENSOR_CS_N" at DE10_LITE_Golden_Top.v(51) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 51
+Warning (10034): Output port "GSENSOR_SCLK" at DE10_LITE_Golden_Top.v(53) has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 53
+Warning (12158): Entity "DE10_LITE_Golden_Top" contains only dangling pins
 Warning (13039): The following bidirectional pins have no drivers
-    Warning (13040): bidirectional pin "DRAM_DQ[0]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
-    Warning (13040): bidirectional pin "DRAM_DQ[1]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
-    Warning (13040): bidirectional pin "DRAM_DQ[2]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
-    Warning (13040): bidirectional pin "DRAM_DQ[3]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
-    Warning (13040): bidirectional pin "DRAM_DQ[4]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
-    Warning (13040): bidirectional pin "DRAM_DQ[5]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
-    Warning (13040): bidirectional pin "DRAM_DQ[6]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
-    Warning (13040): bidirectional pin "DRAM_DQ[7]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
-    Warning (13040): bidirectional pin "DRAM_DQ[8]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
-    Warning (13040): bidirectional pin "DRAM_DQ[9]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
-    Warning (13040): bidirectional pin "DRAM_DQ[10]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
-    Warning (13040): bidirectional pin "DRAM_DQ[11]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
-    Warning (13040): bidirectional pin "DRAM_DQ[12]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
-    Warning (13040): bidirectional pin "DRAM_DQ[13]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
-    Warning (13040): bidirectional pin "DRAM_DQ[14]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
-    Warning (13040): bidirectional pin "DRAM_DQ[15]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
-    Warning (13040): bidirectional pin "GSENSOR_SDI" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 54
-    Warning (13040): bidirectional pin "GSENSOR_SDO" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 55
-    Warning (13040): bidirectional pin "ARDUINO_IO[0]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
-    Warning (13040): bidirectional pin "ARDUINO_IO[1]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
-    Warning (13040): bidirectional pin "ARDUINO_IO[2]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
-    Warning (13040): bidirectional pin "ARDUINO_IO[3]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
-    Warning (13040): bidirectional pin "ARDUINO_IO[4]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
-    Warning (13040): bidirectional pin "ARDUINO_IO[5]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
-    Warning (13040): bidirectional pin "ARDUINO_IO[6]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
-    Warning (13040): bidirectional pin "ARDUINO_IO[7]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
-    Warning (13040): bidirectional pin "ARDUINO_IO[8]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
-    Warning (13040): bidirectional pin "ARDUINO_IO[9]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
-    Warning (13040): bidirectional pin "ARDUINO_IO[10]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
-    Warning (13040): bidirectional pin "ARDUINO_IO[11]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
-    Warning (13040): bidirectional pin "ARDUINO_IO[12]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
-    Warning (13040): bidirectional pin "ARDUINO_IO[13]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
-    Warning (13040): bidirectional pin "ARDUINO_IO[14]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
-    Warning (13040): bidirectional pin "ARDUINO_IO[15]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
-    Warning (13040): bidirectional pin "ARDUINO_RESET_N" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 59
-    Warning (13040): bidirectional pin "GPIO[0]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[1]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[2]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[3]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[4]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[5]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[6]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[7]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[8]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[9]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[10]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[11]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[12]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[13]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[14]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[15]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[16]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[17]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[18]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[19]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[20]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[21]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[22]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[23]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[24]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[25]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[26]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[27]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[28]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[29]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[30]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[31]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[32]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[33]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[34]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
-    Warning (13040): bidirectional pin "GPIO[35]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "DRAM_DQ[0]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
+    Warning (13040): bidirectional pin "DRAM_DQ[1]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
+    Warning (13040): bidirectional pin "DRAM_DQ[2]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
+    Warning (13040): bidirectional pin "DRAM_DQ[3]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
+    Warning (13040): bidirectional pin "DRAM_DQ[4]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
+    Warning (13040): bidirectional pin "DRAM_DQ[5]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
+    Warning (13040): bidirectional pin "DRAM_DQ[6]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
+    Warning (13040): bidirectional pin "DRAM_DQ[7]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
+    Warning (13040): bidirectional pin "DRAM_DQ[8]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
+    Warning (13040): bidirectional pin "DRAM_DQ[9]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
+    Warning (13040): bidirectional pin "DRAM_DQ[10]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
+    Warning (13040): bidirectional pin "DRAM_DQ[11]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
+    Warning (13040): bidirectional pin "DRAM_DQ[12]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
+    Warning (13040): bidirectional pin "DRAM_DQ[13]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
+    Warning (13040): bidirectional pin "DRAM_DQ[14]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
+    Warning (13040): bidirectional pin "DRAM_DQ[15]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 20
+    Warning (13040): bidirectional pin "GSENSOR_SDI" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 54
+    Warning (13040): bidirectional pin "GSENSOR_SDO" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 55
+    Warning (13040): bidirectional pin "ARDUINO_IO[0]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
+    Warning (13040): bidirectional pin "ARDUINO_IO[1]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
+    Warning (13040): bidirectional pin "ARDUINO_IO[2]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
+    Warning (13040): bidirectional pin "ARDUINO_IO[3]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
+    Warning (13040): bidirectional pin "ARDUINO_IO[4]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
+    Warning (13040): bidirectional pin "ARDUINO_IO[5]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
+    Warning (13040): bidirectional pin "ARDUINO_IO[6]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
+    Warning (13040): bidirectional pin "ARDUINO_IO[7]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
+    Warning (13040): bidirectional pin "ARDUINO_IO[8]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
+    Warning (13040): bidirectional pin "ARDUINO_IO[9]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
+    Warning (13040): bidirectional pin "ARDUINO_IO[10]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
+    Warning (13040): bidirectional pin "ARDUINO_IO[11]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
+    Warning (13040): bidirectional pin "ARDUINO_IO[12]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
+    Warning (13040): bidirectional pin "ARDUINO_IO[13]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
+    Warning (13040): bidirectional pin "ARDUINO_IO[14]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
+    Warning (13040): bidirectional pin "ARDUINO_IO[15]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 58
+    Warning (13040): bidirectional pin "ARDUINO_RESET_N" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 59
+    Warning (13040): bidirectional pin "GPIO[0]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[1]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[2]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[3]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[4]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[5]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[6]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[7]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[8]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[9]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[10]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[11]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[12]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[13]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[14]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[15]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[16]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[17]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[18]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[19]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[20]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[21]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[22]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[23]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[24]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[25]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[26]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[27]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[28]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[29]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[30]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[31]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[32]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[33]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[34]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
+    Warning (13040): bidirectional pin "GPIO[35]" has no driver File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 63
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "DRAM_ADDR[0]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
-    Warning (13410): Pin "DRAM_ADDR[1]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
-    Warning (13410): Pin "DRAM_ADDR[2]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
-    Warning (13410): Pin "DRAM_ADDR[3]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
-    Warning (13410): Pin "DRAM_ADDR[4]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
-    Warning (13410): Pin "DRAM_ADDR[5]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
-    Warning (13410): Pin "DRAM_ADDR[6]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
-    Warning (13410): Pin "DRAM_ADDR[7]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
-    Warning (13410): Pin "DRAM_ADDR[8]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
-    Warning (13410): Pin "DRAM_ADDR[9]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
-    Warning (13410): Pin "DRAM_ADDR[10]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
-    Warning (13410): Pin "DRAM_ADDR[11]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
-    Warning (13410): Pin "DRAM_ADDR[12]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
-    Warning (13410): Pin "DRAM_BA[0]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 15
-    Warning (13410): Pin "DRAM_BA[1]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 15
-    Warning (13410): Pin "DRAM_CAS_N" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 16
-    Warning (13410): Pin "DRAM_CKE" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 17
-    Warning (13410): Pin "DRAM_CLK" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 18
-    Warning (13410): Pin "DRAM_CS_N" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 19
-    Warning (13410): Pin "DRAM_LDQM" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 21
-    Warning (13410): Pin "DRAM_RAS_N" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 22
-    Warning (13410): Pin "DRAM_UDQM" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 23
-    Warning (13410): Pin "DRAM_WE_N" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 24
-    Warning (13410): Pin "HEX0[0]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 27
-    Warning (13410): Pin "HEX0[1]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 27
-    Warning (13410): Pin "HEX0[2]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 27
-    Warning (13410): Pin "HEX0[3]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 27
-    Warning (13410): Pin "HEX0[4]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 27
-    Warning (13410): Pin "HEX0[5]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 27
-    Warning (13410): Pin "HEX0[6]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 27
-    Warning (13410): Pin "HEX0[7]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 27
-    Warning (13410): Pin "HEX1[0]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 28
-    Warning (13410): Pin "HEX1[1]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 28
-    Warning (13410): Pin "HEX1[2]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 28
-    Warning (13410): Pin "HEX1[3]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 28
-    Warning (13410): Pin "HEX1[4]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 28
-    Warning (13410): Pin "HEX1[5]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 28
-    Warning (13410): Pin "HEX1[6]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 28
-    Warning (13410): Pin "HEX1[7]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 28
-    Warning (13410): Pin "HEX2[0]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 29
-    Warning (13410): Pin "HEX2[1]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 29
-    Warning (13410): Pin "HEX2[2]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 29
-    Warning (13410): Pin "HEX2[3]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 29
-    Warning (13410): Pin "HEX2[4]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 29
-    Warning (13410): Pin "HEX2[5]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 29
-    Warning (13410): Pin "HEX2[6]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 29
-    Warning (13410): Pin "HEX2[7]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 29
-    Warning (13410): Pin "HEX3[0]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 30
-    Warning (13410): Pin "HEX3[1]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 30
-    Warning (13410): Pin "HEX3[2]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 30
-    Warning (13410): Pin "HEX3[3]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 30
-    Warning (13410): Pin "HEX3[4]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 30
-    Warning (13410): Pin "HEX3[5]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 30
-    Warning (13410): Pin "HEX3[6]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 30
-    Warning (13410): Pin "HEX3[7]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 30
-    Warning (13410): Pin "HEX4[0]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 31
-    Warning (13410): Pin "HEX4[1]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 31
-    Warning (13410): Pin "HEX4[2]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 31
-    Warning (13410): Pin "HEX4[3]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 31
-    Warning (13410): Pin "HEX4[4]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 31
-    Warning (13410): Pin "HEX4[5]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 31
-    Warning (13410): Pin "HEX4[6]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 31
-    Warning (13410): Pin "HEX4[7]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 31
-    Warning (13410): Pin "HEX5[0]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 32
-    Warning (13410): Pin "HEX5[1]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 32
-    Warning (13410): Pin "HEX5[2]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 32
-    Warning (13410): Pin "HEX5[3]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 32
-    Warning (13410): Pin "HEX5[4]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 32
-    Warning (13410): Pin "HEX5[5]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 32
-    Warning (13410): Pin "HEX5[6]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 32
-    Warning (13410): Pin "HEX5[7]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 32
-    Warning (13410): Pin "LEDR[0]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 38
-    Warning (13410): Pin "LEDR[1]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 38
-    Warning (13410): Pin "LEDR[2]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 38
-    Warning (13410): Pin "LEDR[3]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 38
-    Warning (13410): Pin "LEDR[4]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 38
-    Warning (13410): Pin "LEDR[5]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 38
-    Warning (13410): Pin "LEDR[6]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 38
-    Warning (13410): Pin "LEDR[7]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 38
-    Warning (13410): Pin "LEDR[8]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 38
-    Warning (13410): Pin "LEDR[9]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 38
-    Warning (13410): Pin "VGA_B[0]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 44
-    Warning (13410): Pin "VGA_B[1]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 44
-    Warning (13410): Pin "VGA_B[2]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 44
-    Warning (13410): Pin "VGA_B[3]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 44
-    Warning (13410): Pin "VGA_G[0]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 45
-    Warning (13410): Pin "VGA_G[1]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 45
-    Warning (13410): Pin "VGA_G[2]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 45
-    Warning (13410): Pin "VGA_G[3]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 45
-    Warning (13410): Pin "VGA_HS" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 46
-    Warning (13410): Pin "VGA_R[0]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 47
-    Warning (13410): Pin "VGA_R[1]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 47
-    Warning (13410): Pin "VGA_R[2]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 47
-    Warning (13410): Pin "VGA_R[3]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 47
-    Warning (13410): Pin "VGA_VS" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 48
-    Warning (13410): Pin "GSENSOR_CS_N" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 51
-    Warning (13410): Pin "GSENSOR_SCLK" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 53
+    Warning (13410): Pin "DRAM_ADDR[0]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
+    Warning (13410): Pin "DRAM_ADDR[1]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
+    Warning (13410): Pin "DRAM_ADDR[2]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
+    Warning (13410): Pin "DRAM_ADDR[3]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
+    Warning (13410): Pin "DRAM_ADDR[4]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
+    Warning (13410): Pin "DRAM_ADDR[5]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
+    Warning (13410): Pin "DRAM_ADDR[6]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
+    Warning (13410): Pin "DRAM_ADDR[7]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
+    Warning (13410): Pin "DRAM_ADDR[8]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
+    Warning (13410): Pin "DRAM_ADDR[9]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
+    Warning (13410): Pin "DRAM_ADDR[10]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
+    Warning (13410): Pin "DRAM_ADDR[11]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
+    Warning (13410): Pin "DRAM_ADDR[12]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 14
+    Warning (13410): Pin "DRAM_BA[0]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 15
+    Warning (13410): Pin "DRAM_BA[1]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 15
+    Warning (13410): Pin "DRAM_CAS_N" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 16
+    Warning (13410): Pin "DRAM_CKE" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 17
+    Warning (13410): Pin "DRAM_CLK" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 18
+    Warning (13410): Pin "DRAM_CS_N" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 19
+    Warning (13410): Pin "DRAM_LDQM" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 21
+    Warning (13410): Pin "DRAM_RAS_N" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 22
+    Warning (13410): Pin "DRAM_UDQM" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 23
+    Warning (13410): Pin "DRAM_WE_N" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 24
+    Warning (13410): Pin "HEX0[0]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 27
+    Warning (13410): Pin "HEX0[1]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 27
+    Warning (13410): Pin "HEX0[2]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 27
+    Warning (13410): Pin "HEX0[3]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 27
+    Warning (13410): Pin "HEX0[4]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 27
+    Warning (13410): Pin "HEX0[5]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 27
+    Warning (13410): Pin "HEX0[6]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 27
+    Warning (13410): Pin "HEX0[7]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 27
+    Warning (13410): Pin "HEX1[0]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 28
+    Warning (13410): Pin "HEX1[1]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 28
+    Warning (13410): Pin "HEX1[2]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 28
+    Warning (13410): Pin "HEX1[3]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 28
+    Warning (13410): Pin "HEX1[4]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 28
+    Warning (13410): Pin "HEX1[5]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 28
+    Warning (13410): Pin "HEX1[6]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 28
+    Warning (13410): Pin "HEX1[7]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 28
+    Warning (13410): Pin "HEX2[0]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 29
+    Warning (13410): Pin "HEX2[1]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 29
+    Warning (13410): Pin "HEX2[2]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 29
+    Warning (13410): Pin "HEX2[3]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 29
+    Warning (13410): Pin "HEX2[4]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 29
+    Warning (13410): Pin "HEX2[5]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 29
+    Warning (13410): Pin "HEX2[6]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 29
+    Warning (13410): Pin "HEX2[7]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 29
+    Warning (13410): Pin "HEX3[0]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 30
+    Warning (13410): Pin "HEX3[1]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 30
+    Warning (13410): Pin "HEX3[2]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 30
+    Warning (13410): Pin "HEX3[3]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 30
+    Warning (13410): Pin "HEX3[4]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 30
+    Warning (13410): Pin "HEX3[5]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 30
+    Warning (13410): Pin "HEX3[6]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 30
+    Warning (13410): Pin "HEX3[7]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 30
+    Warning (13410): Pin "HEX4[0]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 31
+    Warning (13410): Pin "HEX4[1]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 31
+    Warning (13410): Pin "HEX4[2]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 31
+    Warning (13410): Pin "HEX4[3]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 31
+    Warning (13410): Pin "HEX4[4]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 31
+    Warning (13410): Pin "HEX4[5]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 31
+    Warning (13410): Pin "HEX4[6]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 31
+    Warning (13410): Pin "HEX4[7]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 31
+    Warning (13410): Pin "HEX5[0]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 32
+    Warning (13410): Pin "HEX5[1]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 32
+    Warning (13410): Pin "HEX5[2]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 32
+    Warning (13410): Pin "HEX5[3]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 32
+    Warning (13410): Pin "HEX5[4]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 32
+    Warning (13410): Pin "HEX5[5]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 32
+    Warning (13410): Pin "HEX5[6]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 32
+    Warning (13410): Pin "HEX5[7]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 32
+    Warning (13410): Pin "LEDR[0]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 38
+    Warning (13410): Pin "LEDR[1]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 38
+    Warning (13410): Pin "LEDR[2]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 38
+    Warning (13410): Pin "LEDR[3]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 38
+    Warning (13410): Pin "LEDR[4]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 38
+    Warning (13410): Pin "LEDR[5]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 38
+    Warning (13410): Pin "LEDR[6]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 38
+    Warning (13410): Pin "LEDR[7]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 38
+    Warning (13410): Pin "LEDR[8]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 38
+    Warning (13410): Pin "LEDR[9]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 38
+    Warning (13410): Pin "VGA_B[0]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 44
+    Warning (13410): Pin "VGA_B[1]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 44
+    Warning (13410): Pin "VGA_B[2]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 44
+    Warning (13410): Pin "VGA_B[3]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 44
+    Warning (13410): Pin "VGA_G[0]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 45
+    Warning (13410): Pin "VGA_G[1]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 45
+    Warning (13410): Pin "VGA_G[2]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 45
+    Warning (13410): Pin "VGA_G[3]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 45
+    Warning (13410): Pin "VGA_HS" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 46
+    Warning (13410): Pin "VGA_R[0]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 47
+    Warning (13410): Pin "VGA_R[1]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 47
+    Warning (13410): Pin "VGA_R[2]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 47
+    Warning (13410): Pin "VGA_R[3]" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 47
+    Warning (13410): Pin "VGA_VS" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 48
+    Warning (13410): Pin "GSENSOR_CS_N" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 51
+    Warning (13410): Pin "GSENSOR_SCLK" is stuck at GND File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 53
 Warning (20013): Ignored 23 assignments for entity "altera_avalon_sc_fifo" -- entity does not exist in design
 Warning (20013): Ignored 64 assignments for entity "altera_merlin_master_agent" -- entity does not exist in design
 Warning (20013): Ignored 55 assignments for entity "altera_merlin_master_translator" -- entity does not exist in design
@@ -722,32 +723,32 @@ Info (144001): Generated suppressed messages file C:/Users/zz4221/OneDrive - Imp
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 17 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "ADC_CLK_10" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 9
-    Warning (15610): No output dependent on input pin "MAX10_CLK1_50" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 10
-    Warning (15610): No output dependent on input pin "MAX10_CLK2_50" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 11
-    Warning (15610): No output dependent on input pin "KEY[0]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 35
-    Warning (15610): No output dependent on input pin "KEY[1]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 35
-    Warning (15610): No output dependent on input pin "SW[0]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 41
-    Warning (15610): No output dependent on input pin "SW[1]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 41
-    Warning (15610): No output dependent on input pin "SW[2]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 41
-    Warning (15610): No output dependent on input pin "SW[3]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 41
-    Warning (15610): No output dependent on input pin "SW[4]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 41
-    Warning (15610): No output dependent on input pin "SW[5]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 41
-    Warning (15610): No output dependent on input pin "SW[6]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 41
-    Warning (15610): No output dependent on input pin "SW[7]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 41
-    Warning (15610): No output dependent on input pin "SW[8]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 41
-    Warning (15610): No output dependent on input pin "SW[9]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 41
-    Warning (15610): No output dependent on input pin "GSENSOR_INT[1]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 52
-    Warning (15610): No output dependent on input pin "GSENSOR_INT[2]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/Lab Materials/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 52
+    Warning (15610): No output dependent on input pin "ADC_CLK_10" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 9
+    Warning (15610): No output dependent on input pin "MAX10_CLK1_50" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 10
+    Warning (15610): No output dependent on input pin "MAX10_CLK2_50" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 11
+    Warning (15610): No output dependent on input pin "KEY[0]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 35
+    Warning (15610): No output dependent on input pin "KEY[1]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 35
+    Warning (15610): No output dependent on input pin "SW[0]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 41
+    Warning (15610): No output dependent on input pin "SW[1]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 41
+    Warning (15610): No output dependent on input pin "SW[2]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 41
+    Warning (15610): No output dependent on input pin "SW[3]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 41
+    Warning (15610): No output dependent on input pin "SW[4]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 41
+    Warning (15610): No output dependent on input pin "SW[5]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 41
+    Warning (15610): No output dependent on input pin "SW[6]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 41
+    Warning (15610): No output dependent on input pin "SW[7]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 41
+    Warning (15610): No output dependent on input pin "SW[8]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 41
+    Warning (15610): No output dependent on input pin "SW[9]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 41
+    Warning (15610): No output dependent on input pin "GSENSOR_INT[1]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 52
+    Warning (15610): No output dependent on input pin "GSENSOR_INT[2]" File: C:/Users/zz4221/OneDrive - Imperial College London/Desktop/InformationProcessing/InfoProc-Lab-Solution/lab2/src/Golden_Top/DE10_LITE_Golden_Top.v Line: 52
 Info (21057): Implemented 185 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 17 input pins
     Info (21059): Implemented 97 output pins
     Info (21060): Implemented 71 bidirectional pins
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 244 warnings
-    Info: Peak virtual memory: 4767 megabytes
-    Info: Processing ended: Tue Feb 06 16:58:02 2024
-    Info: Elapsed time: 00:00:42
-    Info: Total CPU time (on all processors): 00:01:01
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 245 warnings
+    Info: Peak virtual memory: 4768 megabytes
+    Info: Processing ended: Tue Feb 06 17:15:49 2024
+    Info: Elapsed time: 00:00:32
+    Info: Total CPU time (on all processors): 00:01:00
 
 
 +------------------------------------------+
